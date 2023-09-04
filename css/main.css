@@ -49,8 +49,8 @@ header,
 main,
 footer {
   text-align: center;
-  margin: 0 37px;
   font-family: Roboto;
+  color: var(--black);
 }
 
 header {
@@ -66,4 +66,33 @@ header img {
 
 header hr {
   border: solid var(--red) 1px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 35px 12px;
+}
+
+p {
+  padding: 0 35px 0 35px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-red-color {
+  color: var(--red);
+}
+
+.title-box {
+  border-top: 1px solid var(--red);
+  border-bottom: 1px solid var(--red);
+  padding: 25px 50px;
 }
