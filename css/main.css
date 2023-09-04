@@ -45,8 +45,25 @@ video {
 // base rules
 // ==================================== */
 
-body {
+header,
+main,
+footer {
   text-align: center;
   margin: 0 37px;
   font-family: Roboto;
+}
+
+header {
+  margin: 0;
+  background: #e7e7db;
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  padding: 14px 98px 12px 98px;
+}
+
+header hr {
+  border: solid var(--red) 1px;
 }
