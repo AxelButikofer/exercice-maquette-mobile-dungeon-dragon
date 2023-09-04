@@ -96,3 +96,20 @@ p {
   border-bottom: 1px solid var(--red);
   padding: 25px 50px;
 }
+
+.button {
+  background: var(--red);
+  color: white;
+  border-radius: 8px;
+  width: 132px;
+  height: 34px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  margin-top: 29px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
