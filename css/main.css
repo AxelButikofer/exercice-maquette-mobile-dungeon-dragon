@@ -123,6 +123,15 @@ footer p {
   padding: 25px 50px;
 }
 
+.section-red {
+  background: var(--red);
+}
+
+.section-red-img {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  margin: 25px 90px;
+}
+
 .button {
   background: var(--red);
   color: white;
